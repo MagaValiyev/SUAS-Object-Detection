@@ -8,7 +8,7 @@ This is a GitHub repository aimed to give information about the Object Detection
 
 The **Object Detection Task** consists of detecting a set of standard objects and an emergent object.
 
-The standard objects are geometric shapes, namely:
+The **standard objects** are geometric shapes, namely:
 
 1. Triangle [(view)](images/triangle.jpg)
 2. Circle [(view)](images/circle.jpg)
@@ -19,7 +19,7 @@ The standard objects are geometric shapes, namely:
 7. Star ([view)](images/star.jpg)
 8. Cross [(view)](images/cross.jpg)
 
-The standard objects can be of colours:
+The standard objects can be of **colours**:
 
 1. White
 2. Black
@@ -29,6 +29,8 @@ The standard objects can be of colours:
 6. Purple
 7. Brown
 8. Orange
+
+The **emergent object** is a manikind dressed in clothes lying on the ground [view](images/manikind.jpg).
 
 | Header 1 | Header 2 | Header 3 |
 | ---------|----------|----------|

@@ -32,8 +32,14 @@ The standard objects can be of **colours**:
 
 The **emergent object** is a manikind dressed in clothes lying on the ground [view](images/manikind.jpg).
 
-| Header 1 | Header 2 | Header 3 |
-| ---------|----------|----------|
-| Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |
-| Row 2, Col 1 | Row 2, Col 2 | Row 2, Col 3 |
-| Row 3, Col 1 | Row 3, Col 2 | Row 3, Col 3 |
+| Object Types | Images | Color | Description |
+| ---------|----------|----------|----------|
+| Triangle | [image](images/circle.jpg) | white-orange | contains (A-Z) or (0-9) |
+| Circle | [image](images/circle.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Semi-circle | [image](images/semi-circle.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Quarter-circle | [image](images/quarter-circle.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Rectangle | [image](images/rectangle.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Pentagon | [image](images/pentagon.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Star | [image](images/star.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Cross | [image](images/cross.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Manikind | [image](images/manikind.jpg) | **unkown** | dressed |

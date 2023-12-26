@@ -43,3 +43,10 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 | Star | [image](images/star.jpg)  | white-orange | contains (A-Z) or (0-9) |
 | Cross | [image](images/cross.jpg)  | white-orange | contains (A-Z) or (0-9) |
 | Manikind | [image](images/manikind.jpg) | **unkown** | dressed |
+
+## Evaluation
+
+- Timeline = 10%
+- Operators = 30%
+- Air Drop (**Object Detection** and **Classification** used here) = 50%
+- Operational Excellence = 10%

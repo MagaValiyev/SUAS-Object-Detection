@@ -6,6 +6,11 @@ This is a GitHub repository aimed to give information about the Object Detection
 
 ## Object Types
 
+The **Object Detection Task** consists of detecting a set of standard objects and an emergent object.
+
+The standard objects are geometric shapes, namely:
+
+[1. Triangle](image/circle.jpg)
 
 | Header 1 | Header 2 | Header 3 |
 | ---------|----------|----------|

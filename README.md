@@ -19,6 +19,17 @@ The standard objects are geometric shapes, namely:
 7. Star ([view)](images/star.jpg)
 8. Cross [(view)](images/cross.jpg)
 
+The standard objects can be of colours:
+
+1. White
+2. Black
+3. Red
+4. Blue
+5. Green
+6. Purple
+7. Brown
+8. Orange
+
 | Header 1 | Header 2 | Header 3 |
 | ---------|----------|----------|
 | Row 1, Col 1 | Row 1, Col 2 | Row 1, Col 3 |

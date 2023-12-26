@@ -10,7 +10,14 @@ The **Object Detection Task** consists of detecting a set of standard objects an
 
 The standard objects are geometric shapes, namely:
 
-[1. Triangle](image/circle.jpg)
+1. Triangle [(view)](images/triangle.jpg)
+2. Circle [(view)](images/circle.jpg)
+3. Semi-circle [(view)](images/semi-circle.jpg)
+4. Quarter-circle [(view)](images/quarter-circle.jpg)
+5. Rectangle [(view)](images/rectangle.jpg)
+6. Pentagon [(view)](images/pentagon.jpg)
+7. Star ([view)](images/star.jpg)
+8. Cross [(view)](images/cross.jpg)
 
 | Header 1 | Header 2 | Header 3 |
 | ---------|----------|----------|

@@ -11,8 +11,8 @@ The **Object Detection Task** consists of detecting a set of standard objects an
 The **standard objects** are geometric shapes, namely:
 
 1. Triangle [(view)](images/triangle.jpg)
-2. Circle [(view)](images/circle.jpg)
-3. Semi-circle [(view)](images/semi-circle.jpg)
+2. Circle [(view)](images/circuit.jpg)
+3. Semi-circle [(view)](images/semi-circuit.jpg)
 4. Quarter-circle [(view)](images/quarter-circle.jpg)
 5. Rectangle [(view)](images/rectangle.jpg)
 6. Pentagon [(view)](images/pentagon.jpg)
@@ -34,9 +34,9 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 
 | Object Types | Images | Color | Description |
 | ---------|----------|----------|----------|
-| Triangle | [image](images/circle.jpg) | white-orange | contains (A-Z) or (0-9) |
-| Circle | [image](images/circle.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Semi-circle | [image](images/semi-circle.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Triangle | [image](images/triangle.jpg) | white-orange | contains (A-Z) or (0-9) |
+| Circle | [image](images/circuit.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Semi-circle | [image](images/semi-circuit.jpg)  | white-orange | contains (A-Z) or (0-9) |
 | Quarter-circle | [image](images/quarter-circle.jpg)  | white-orange | contains (A-Z) or (0-9) |
 | Rectangle | [image](images/rectangle.jpg)  | white-orange | contains (A-Z) or (0-9) |
 | Pentagon | [image](images/pentagon.jpg)  | white-orange | contains (A-Z) or (0-9) |

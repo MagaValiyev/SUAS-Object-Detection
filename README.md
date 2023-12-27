@@ -13,7 +13,7 @@ The **standard objects** are geometric shapes, namely:
 1. Triangle [(view)](images/triangle.jpg)
 2. Circle [(view)](images/circuit.jpg)
 3. Semi-circle [(view)](images/semi-circuit.jpg)
-4. Quarter-circle [(view)](images/quarter-circle.jpg)
+4. Quarter-circle [(view)](images/real-quarter-circle.jpg)
 5. Rectangle [(view)](images/rectangle.jpg)
 6. Pentagon [(view)](images/pentagon.jpg)
 7. Star ([view)](images/star.jpg)
@@ -37,7 +37,7 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 | Triangle | <img src="images/triangle.jpg" width="40"> | white-orange | contains (A-Z) or (0-9) |
 | Circle | <img src="images/circuit.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
 | Semi-circle | <img src="images/semi-circuit.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
-| Quarter-circle | <img src="images/quarter-circle.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
+| Quarter-circle | <img src="images/real-quarter-circle.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
 | Rectangle | <img src="images/rectangle.jpg" width="40"> | white-orange | contains (A-Z) or (0-9) |
 | Pentagon | <img src="images/pentagon.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
 | Star | <img src="images/star.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |

@@ -42,7 +42,7 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 | Pentagon | <img src="images/pentagon.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
 | Star | <img src="images/star.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
 | Cross | <img src="images/cross.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
-| Manikind | <img src="images/manikind.jpg" width="40"> | **unkown** | dressed |
+| Manikin | <img src="images/manikin.jpg" width="40"> | **unkown** | dressed |
 
 ## Target Goals
 

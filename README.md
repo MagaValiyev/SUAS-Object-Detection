@@ -34,19 +34,19 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 
 | Object Types | Images | Color | Description |
 | ---------|----------|----------|----------|
-| Triangle | [image](images/triangle.jpg) | white-orange | contains (A-Z) or (0-9) |
-| Circle | [image](images/circuit.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Semi-circle | [image](images/semi-circuit.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Quarter-circle | [image](images/quarter-circle.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Rectangle | [image](images/rectangle.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Pentagon | [image](images/pentagon.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Star | [image](images/star.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Cross | [image](images/cross.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Manikind | [image](images/manikind.jpg) | **unkown** | dressed |
+| Triangle | ![image](images/triangle.jpg) | white-orange | contains (A-Z) or (0-9) |
+| Circle | ![image](images/circuit.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Semi-circle | ![image](images/semi-circuit.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Quarter-circle | ![image](images/quarter-circle.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Rectangle | ![image](images/rectangle.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Pentagon | ![image](images/pentagon.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Star | ![image](images/star.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Cross | ![image](images/cross.jpg)  | white-orange | contains (A-Z) or (0-9) |
+| Manikind | ![image](images/manikind.jpg) | **unkown** | dressed |
 
-## Evaluation
+## Target Goals
 
-- Timeline = 10%
-- Operators = 30%
-- Air Drop (**Object Detection** and **Classification** used here) = 50%
-- Operational Excellence = 10%
+- To print exemplary shape images and take their photo
+- Gather dataset
+- Gather images of people from drone
+- Train Model

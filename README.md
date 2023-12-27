@@ -34,7 +34,7 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 
 | Object Types | Images | Color | Description |
 | ---------|----------|----------|----------|
-| Triangle | ![image](images/triangle.jpg) | white-orange | contains (A-Z) or (0-9) |
+| Triangle | <img src="images/triangle.jpg" width="100"> | white-orange | contains (A-Z) or (0-9) |
 | Circle | ![image](images/circuit.jpg)  | white-orange | contains (A-Z) or (0-9) |
 | Semi-circle | ![image](images/semi-circuit.jpg)  | white-orange | contains (A-Z) or (0-9) |
 | Quarter-circle | ![image](images/quarter-circle.jpg)  | white-orange | contains (A-Z) or (0-9) |

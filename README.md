@@ -34,15 +34,15 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 
 | Object Types | Images | Color | Description |
 | ---------|----------|----------|----------|
-| Triangle | <img src="images/triangle.jpg" width="20"> | white-orange | contains (A-Z) or (0-9) |
-| Circle | ![image](images/circuit.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Semi-circle | ![image](images/semi-circuit.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Quarter-circle | ![image](images/quarter-circle.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Rectangle | ![image](images/rectangle.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Pentagon | ![image](images/pentagon.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Star | ![image](images/star.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Cross | ![image](images/cross.jpg)  | white-orange | contains (A-Z) or (0-9) |
-| Manikind | ![image](images/manikind.jpg) | **unkown** | dressed |
+| Triangle | <img src="images/triangle.jpg" width="40"> | white-orange | contains (A-Z) or (0-9) |
+| Circle | <img src="images/circuit.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
+| Semi-circle | <img src="images/semi-circuit.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
+| Quarter-circle | <img src="images/quarter-circle.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
+| Rectangle | <img src="images/rectangle.jpg" width="40"> | white-orange | contains (A-Z) or (0-9) |
+| Pentagon | <img src="images/pentagon.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
+| Star | <img src="images/star.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
+| Cross | <img src="images/cross.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
+| Manikind | <img src="images/manikind.jpg" width="40"> | **unkown** | dressed |
 
 ## Target Goals
 

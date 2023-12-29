@@ -44,9 +44,56 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 | Cross | <img src="images/cross.jpg" width="40">  | white-orange | contains (A-Z) or (0-9) |
 | Manikin | <img src="images/manikin.jpg" width="40"> | **unkown** | dressed |
 
-## Target Goals
+## Target Goal
+**General procedure - Object Detection-Localization-Classification (ODLC):**
 
-- To print exemplary shape images and take their photo
-- Gather dataset
-- Gather images of people from drone
-- Train Model
+- We detect an object on the ground
+- Verify whether it coincides with given parameters
+- If yes, drop at the location
+
+**Manikin Recognition:**
+- Gather images with drone
+- Automatic labelling with SAM
+- Train YOLOv8 model
+
+**Standard Objects Detection** includes 4 sub-tasks:
+- Shape Detection
+- Character Detection
+- Color Detection for Shape
+- Color Detection for Character
+
+## Detailed Standard Objects Detection
+**Shape Detection**
+- Print different shapes on A4
+- Label them
+- Use YOLOv8 model
+
+**Character Detection**
+- Use OCR Recognition with Python
+
+For example, EasyOCR:
+
+<img src="images/star.jpg" width="40">
+
+Given result:
+
+([[264, 340], [682, 340], [682, 752], [264, 752]], **'2'**, 0.9999928474554167)
+
+<img src="images/circuit.jpg" width="40">
+
+Given result:
+
+([[240, 344], [614, 344], [614, 756], [240, 756]], **'B'**, 0.9852499557346164)
+
+*Problem:* works only when white characters
+
+
+**Color Detection**
+- K-means Clustering algorithm
+- Convolutional Neural Network (CNN)
+
+*Have not tried yet colored detection*
+
+
+
+

@@ -78,7 +78,7 @@ For shapes detection:
   - Character
   - Character Color
 - Save detection results into the database (SQLIte)
-- Choose the most frequent
+- Choose the most frequent detection
 
 Localization (identifying geolocation):
 - Save location points into the database (SQLLite) when detecting

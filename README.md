@@ -77,9 +77,12 @@ For shapes detection:
   - Shape color
   - Character
   - Character Color
-- Save detection results into the database
+- Save detection results into the database (SQLIte)
 - Choose the most frequent
 
-Localization options:
-
+Localization (identifying geolocation):
+- Save location points into the database (SQLLite) when detecting
+- Height: using Lidar
+- Location: using GPS
+  
 

@@ -63,37 +63,23 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 - Color Detection for Character
 
 ## Detailed Standard Objects Detection
-**Shape Detection**
-- Print different shapes on A4
-- Label them
-- Use YOLOv8 model
+**Final Decision:**
 
-**Character Detection**
-- Use OCR Recognition with Python
+For manikin detection:
 
-For example, EasyOCR:
+- Gather dataset with human from birdseye view
+- Train YOLOv8 model
 
-<img src="images/star.jpg" width="40">
+For shapes detection:
+- Train general YOLOv8 model for paper detection on ground
+- Train 4 models for classification of:
+  - Shape
+  - Shape color
+  - Character
+  - Character Color
+- Save detection results into the database
+- Choose the most frequent
 
-Given result:
-
-([[264, 340], [682, 340], [682, 752], [264, 752]], **'2'**, 0.9999928474554167)
-
-<img src="images/circuit.jpg" width="40">
-
-Given result:
-
-([[240, 344], [614, 344], [614, 756], [240, 756]], **'B'**, 0.9852499557346164)
-
-*Problem:* works only when white characters
-
-
-**Color Detection**
-- K-means Clustering algorithm
-- Convolutional Neural Network (CNN)
-
-*Have not tried yet colored detection*
-
-
+Localization options:
 
 

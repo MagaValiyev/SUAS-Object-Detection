@@ -151,4 +151,4 @@ object.id == A4.id and shape.id == given_shape.id and character.id == given_char
 ```
 
 **SQLite database**:
-[(view)](images/image_db.jpg)
+![(view)](images/image_db.jpg)

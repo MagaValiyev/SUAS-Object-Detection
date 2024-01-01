@@ -152,3 +152,11 @@ object.id == A4.id and shape.id == given_shape.id and character.id == given_char
 
 **SQLite database**:\
 ![(view)](images/image_db.jpg)
+
+```
+SELECT column_name(s)
+FROM table_name
+ORDER BY column_name
+OFFSET (n-1)*5 rows
+FETCH 5 next rows
+```

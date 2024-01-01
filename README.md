@@ -45,22 +45,18 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 | Manikin | <img src="images/manikin.jpg" width="40"> | **unkown** | dressed |
 
 ## Target Goal
-**General procedure - Object Detection-Localization-Classification (ODLC):**
 
-- We detect an object on the ground
-- Verify whether it coincides with given parameters
-- If yes, drop at the location
-
-**Manikin Recognition:**
-- Gather images with drone
-- Automatic labelling with SAM
-- Train YOLOv8 model
-
-**Standard Objects Detection** includes 4 sub-tasks:
-- Shape Detection
-- Character Detection
-- Color Detection for Shape
-- Color Detection for Character
+To make a control flight, during which:
+- Detect all the objects on the ground
+- If one object detected:
+  - Get geolocation
+  - Save frame of the object
+  - If manikin: save to database
+  - If A4:
+    - Classify shape
+    - Classify character
+    - Classify chape color
+    - Crop character and classify character color
 
 ## Detailed Standard Objects Detection
 **Final Decision:**

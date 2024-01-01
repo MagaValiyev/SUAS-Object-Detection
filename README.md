@@ -59,6 +59,17 @@ To make a control flight, during which:
     - Crop character and classify character color
     - Save to database
 
+## Timeline
+
+1. A4 or Manikin Detection Model:
+   - [ ] Cleaning of 25k dataset (1 week)
+   - [ ] Collection of images (drone will be ready in ~1 week)
+   - [ ] 40k per class
+   - [ ] Labelling (SAM, by hand, and own model)
+   - [ ] Training model
+   - [ ] Checking on validation dataset
+   - [ ] Ready model (end of January)
+
 ## Detailed Standard Objects Detection
 **Final Decision:**
 

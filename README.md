@@ -141,8 +141,13 @@ Number of images:
 - Height: using Lidar
 - Location: using GPS
 
-When attaching bottle for manikin drop if:
+When attaching a bottle for manikin drop if:
 ```
 object.id == manikin.id
+```
+
+When attaching a bottle for shape drop if:
+```
+object.id == A4.id and shape.id == given_shape.id and character.id == given_character.id and shape_color.id == given_shape_color.id and character_color.id == given_character_color.id
 ```
 

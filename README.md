@@ -110,13 +110,12 @@ Number of images:
 - [ ] Comparing model success using validation dataset
 
 Number of images:
-- ~1k per class
+- ~5k per class
 
 **Input:** cropped image A4\
 **Output:**
 - Color of Shape
-- Color of Character 
-
+- Color of Character
 
 **Important details when collecting images:**
 - Shade

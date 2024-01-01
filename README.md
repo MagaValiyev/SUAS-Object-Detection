@@ -57,6 +57,7 @@ To make a control flight, during which:
     - Classify character
     - Classify chape color
     - Crop character and classify character color
+    - Save to database
 
 ## Detailed Standard Objects Detection
 **Final Decision:**

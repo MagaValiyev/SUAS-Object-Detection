@@ -65,7 +65,8 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 ## Detailed Standard Objects Detection
 **Final Decision:**
 
-**A YOLOv8 model for manikin and A4 paper detection:**[] Clean 25k human dataset
+**A YOLOv8 model for manikin and A4 paper detection:**
+[ ] Clean 25k human dataset
 [ ] (Manual collection of images (using drone or photographing from high point))
 [ ] Labelling of human using SAM
 [ ] Manual labelling of A4 paper

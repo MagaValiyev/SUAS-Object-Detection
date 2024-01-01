@@ -73,7 +73,7 @@ To make a control flight, during which:
 2. Character Detection Model:
    - [ ] Use gathered images (40k for this class)
    - [ ] Label (manually, after certain time with model)
-   - [ ] Trainin model
+   - [ ] Training model
    - [ ] Checking on validation dataset
    - [ ] Ready Model (14 February)
 

@@ -76,7 +76,7 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 Number of images:
 - ~40k per class
 
-**Input:** image of lying objects
+**Input:** image of lying objects\
 **Output:** manikin or A4
 
 **A YOLOv8 model for character recognition (36 classes):**
@@ -88,7 +88,7 @@ Number of images:
 Number of images:
 - ~1k per class
 
-**Input:** cropped image A4
+**Input:** cropped image A4\
 **Output:** character
 
 **A YOLOv8 model for shape recognition (8 classes):**
@@ -100,7 +100,7 @@ Number of images:
 Number of images:
 - ~5k per class
 
-**Input:** cropped image A4
+**Input:** cropped image A4\
 **Output:** shape
 
 **A YOLOv8 model for color recognition (8 classes):**
@@ -112,7 +112,7 @@ Number of images:
 Number of images:
 - ~1k per class
 
-**Input:** cropped image A4
+**Input:** cropped image A4\
 **Output:**
 - Color of Shape
 - Color of Character 

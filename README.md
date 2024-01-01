@@ -65,10 +65,33 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 ## Detailed Standard Objects Detection
 **Final Decision:**
 
-For manikin detection:
+**A YOLOv8 model for manikin and A4 paper detection:**
+- [] Clean 25k human dataset
+- [] Manual collection of images (using drone or photographing from high point)
+- [] Labelling of human using SAM
+- [] Manual labelling of A4 paper
+- [] Automatic labelling using pre-trained model
+- [] Comparing model success using validation
 
-- Gather dataset with human from birdseye view
-- Train YOLOv8 model
+Important details:
+- Shade
+- Light
+- Rotation
+- Degree of camera
+
+Number of images:
+- 30k per class
+
+Procedure:
+- Make 5 detections for one object
+- Save results in SQLite
+
+Target goal:
+- Choose the most frequent result
+- The result's frequency - the 2nd frequent result's frequency > 20% 
+
+**A YOLOv8 model for character recognition:**
+- [] Manual collection of images (using drone or photographing from high point)
 
 For shapes detection:
 - Train general YOLOv8 model for paper detection on ground

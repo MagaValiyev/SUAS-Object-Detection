@@ -70,6 +70,13 @@ To make a control flight, during which:
    - [ ] Checking on validation dataset
    - [ ] Ready model (end of January)
 
+2. Character Detection Model:
+   - [ ] Use gathered images (40k for this class)
+   - [ ] Label (manually, after certain time with model)
+   - [ ] Trainin model
+   - [ ] Checking on validation dataset
+   - [ ] Ready Model (14 February)
+
 ## Detailed Standard Objects Detection
 **Final Decision:**
 

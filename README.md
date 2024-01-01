@@ -67,32 +67,41 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 
 **A YOLOv8 model for manikin and A4 paper detection:**
 - [ ] Clean 25k human dataset
-[ ] (Manual collection of images (using drone or photographing from high point))
-[ ] Labelling of human using SAM
-[ ] Manual labelling of A4 paper
-[ ] Automatic labelling using pre-trained model
-[ ] Comparing model success using validation
+- [ ] Manual collection of images (using drone or photographing from high point)
+- [ ] Labelling of human using SAM
+- [ ] Manual labelling of A4 paper
+- [ ] Automatic labelling using pre-trained model
+- [ ] Comparing model success using validation dataset
 
-Important details:
+Number of images:
+- 30k per class
+
+**A YOLOv8 model for character recognition (36 classes):**
+- [ ] Manual collection of images (using drone or photographing from high point)
+- [ ] Manual labelling
+- [ ] Automatic labelling using pre-trained models
+- [ ] Comparing model success using validation dataset
+
+Number of images:
+- 2k per class
+
+
+
+**Important details when collecting images:**
 - Shade
 - Light
 - Rotation
 - Degree of camera
 
-Number of images:
-- 30k per class
-
-Procedure:
+**Procedure:**
 - Make 5 detections for one object
+- Make 5 
 - Save results in SQLite
 
-Target goal:
+**Target goal:**
 - Choose the most frequent result
-- The result's frequency - the 2nd frequent result's frequency > 20% 
-
-**A YOLOv8 model for character recognition:**
-- [] Manual collection of images (using drone or photographing from high point)
-
+- The result's frequency - the 2nd frequent result's frequency > 20%
+ 
 For shapes detection:
 - Train general YOLOv8 model for paper detection on ground
 - Train 4 models for classification of:
@@ -103,7 +112,7 @@ For shapes detection:
 - Save detection results into the database (SQLIte)
 - Choose the most frequent detection
 
-Localization (identifying geolocation):
+**Localization (identifying geolocation):**
 - Save location points into the database (SQLLite) when detecting
 - Height: using Lidar
 - Location: using GPS

@@ -66,7 +66,7 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 **Final Decision:**
 
 **A YOLOv8 model for manikin and A4 paper detection:**
-- [ ] Clean 25k human dataset
+- [ ] Cleaning of 25k dataset
 - [ ] Manual collection of images (using drone or photographing from high point)
 - [ ] Labelling of human using SAM
 - [ ] Manual labelling of A4 paper
@@ -74,7 +74,10 @@ The **emergent object** is a manikind dressed in clothes lying on the ground [vi
 - [ ] Comparing model success using validation dataset
 
 Number of images:
-- 30k per class
+- ~40k per class
+
+**Input:** image of lying objects
+**Output:** manikin or A4
 
 **A YOLOv8 model for character recognition (36 classes):**
 - [ ] Manual collection of images (using drone or photographing from high point)
@@ -83,8 +86,36 @@ Number of images:
 - [ ] Comparing model success using validation dataset
 
 Number of images:
-- 2k per class
+- ~1k per class
 
+**Input:** cropped image A4
+**Output:** character
+
+**A YOLOv8 model for shape recognition (8 classes):**
+- [ ] Manual collection of images (using drone or photographing from high point)
+- [ ] Manual labelling
+- [ ] Automatic labelling using pre-trained models
+- [ ] Comparing model success using validation dataset
+
+Number of images:
+- ~5k per class
+
+**Input:** cropped image A4
+**Output:** shape
+
+**A YOLOv8 model for color recognition (8 classes):**
+- [ ] Manual collection of images (using drone or photographing from high point)
+- [ ] Manual labelling
+- [ ] Automatic labelling using pre-trained models
+- [ ] Comparing model success using validation dataset
+
+Number of images:
+- ~1k per class
+
+**Input:** cropped image A4
+**Output:**
+- Color of Shape
+- Color of Character 
 
 
 **Important details when collecting images:**
@@ -94,27 +125,24 @@ Number of images:
 - Degree of camera
 
 **Procedure:**
-- Make 5 detections for one object
-- Make 5 
+- Make 5 detections for object on the ground
+- Make 5 recognitions for shape
+- Make 5 recognitions for character
+- Make 5 recognitions for character color
+- Make 5 recognitions for shape color
 - Save results in SQLite
 
 **Target goal:**
 - Choose the most frequent result
 - The result's frequency - the 2nd frequent result's frequency > 20%
- 
-For shapes detection:
-- Train general YOLOv8 model for paper detection on ground
-- Train 4 models for classification of:
-  - Shape
-  - Shape color
-  - Character
-  - Character Color
-- Save detection results into the database (SQLIte)
-- Choose the most frequent detection
 
 **Localization (identifying geolocation):**
 - Save location points into the database (SQLLite) when detecting
 - Height: using Lidar
 - Location: using GPS
-  
+
+When attaching bottle for manikin drop if:
+```
+object.id == manikin.id
+```
 

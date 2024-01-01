@@ -150,3 +150,5 @@ When attaching a bottle for shape drop if:
 object.id == A4.id and shape.id == given_shape.id and character.id == given_character.id and shape_color.id == given_shape_color.id and character_color.id == given_character_color.id
 ```
 
+**SQLite database**:
+[(view)](images/image_db.jpg)

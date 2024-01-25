@@ -84,7 +84,7 @@ Drone flight was **banned** by university
 
 P.S. Checkmarks are for the **demo** models. As for now:
 - 1306 images are taken by drone
-- 7600 labeled object
+- 7600 labeled objects
   - Shapes: 7055
   - Person: 545
 - Demo model for human detection is trained and tested (find futher information in **human-model** repository)

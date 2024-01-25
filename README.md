@@ -63,13 +63,16 @@ To make a control flight, during which:
 
 ## Difficulties Encountered
 Drone flight was **banned** by university
-- Approximate permission data from: 02.02.2024
+- Approximate permission date from: 02.02.2024
 - Alternative solutions:
   - Gather synthetic data (Canva, Gazebo)
   - Simulate different scenarios in Gazebo
   - Save videos of these scenarios
   - Test detection and classification models on test video
-  - Work on imporvements
+  - Work on imporvements (simulate GenAI)
+- Character classification model not trained:
+  - High number of classes: 36
+  - Insufficient data (not any frames for 19 classes)
 
 ## Timeline
 
@@ -90,10 +93,12 @@ P.S. Checkmarks are for the **demo** models. As for now:
 - Demo model for human detection is trained and tested (find futher information in **human-model** repository)
 - Demo model for shape detection is trained and tested (find futher information in **shape-detection** repository)
 
-2. Character Classification Model:
-   - [ ] Use gathered images (40k for this class)
-   - [ ] Separate images (manually, after certain time with model)
-   - [ ] Training model
-   - [ ] Checking on validation dataset
-   - [ ] Ready Model (14 February)
+2. Classification Models:
+   - [x] Use gathered images (40k for this class)
+   - [X] Separate images (manually, after certain time with model)
+   - [X] Training model
+   - [X] Checking on validation dataset
+   - [ ] Ready Models (end of February)
 
+P.S. Checkmarks are for the **demo** models. Checkmarks are for 3 classification models (shape, external color, internal color). Character classification model not trained (lack of data).
+- Demo classification models (shape, external color, internal color) are trained and tested (find further information in **classification-models** repository)

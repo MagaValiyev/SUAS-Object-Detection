@@ -1,4 +1,6 @@
-# SUAS 2024 Object Detection Task
+# SUAS 2024 Object Detection Task 
+
+as for 25.01.2024...
 
 ## Introduction
 

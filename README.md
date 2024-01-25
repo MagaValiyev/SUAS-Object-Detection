@@ -1,6 +1,6 @@
 # SUAS 2024 Object Detection Task 
 
-as for 25.01.2024...
+state of the project as for 25.01.2024 ...
 
 ## Introduction
 
@@ -54,126 +54,46 @@ To make a control flight, during which:
   - Get geolocation
   - Save frame of the object
   - If manikin: save to database
-  - If A4:
+  - If figure:
     - Classify shape
     - Classify character
-    - Classify chape color
-    - Crop character and classify character color
+    - Classify external color
+    - Classify internal color
     - Save to database
+
+## Difficulties Encountered
+Drone flight was **banned** by university
+- Approximate permission data from: 02.02.2024
+- Alternative solutions:
+  - Gather synthetic data (Canva, Gazebo)
+  - Simulate different scenarios in Gazebo
+  - Save videos of these scenarios
+  - Test detection and classification models on test video
+  - Work on imporvements
 
 ## Timeline
 
 1. A4 or Manikin Detection Model:
-   - [ ] Cleaning of 25k dataset (1 week)
-   - [ ] Collection of images (drone will be ready in ~1 week)
-   - [ ] 40k per class
+   - [x] Cleaning of 25k dataset (1 week)
+   - [x] Collection of images (drone will be ready in ~1 week) 
+   - [ ] 40k objects per class
    - [ ] Labelling (SAM, by hand, and own model)
-   - [ ] Training model
-   - [ ] Checking on validation dataset
+   - [x] Training model 
+   - [x] Checking on validation dataset 
    - [ ] Ready model (end of January)
 
-2. Character Detection Model:
+P.S. Checkmarks are for the **demo** models. As for now:
+- 1306 images are taken by drone
+- 7600 labeled object
+  - Shapes: 7055
+  - Person: 545
+- Demo model for human detection is trained and tested (find futher information in **human-model** repository)
+- Demo model for shape detection is trained and tested (find futher information in **shape-detection** repository)
+
+2. Character Classification Model:
    - [ ] Use gathered images (40k for this class)
-   - [ ] Label (manually, after certain time with model)
+   - [ ] Separate images (manually, after certain time with model)
    - [ ] Training model
    - [ ] Checking on validation dataset
    - [ ] Ready Model (14 February)
 
-## Detailed Standard Objects Detection
-**Final Decision:**
-
-**A YOLOv8 model for manikin and A4 paper detection:**
-- [ ] Cleaning of 25k dataset
-- [ ] Manual collection of images (using drone or photographing from high point)
-- [ ] Labelling of human using SAM
-- [ ] Manual labelling of A4 paper
-- [ ] Automatic labelling using pre-trained model
-- [ ] Comparing model success using validation dataset
-
-Number of images:
-- ~40k per class
-
-**Input:** image of lying objects\
-**Output:** manikin or A4
-
-**A YOLOv8 model for character recognition (36 classes):**
-- [ ] Manual collection of images (using drone or photographing from high point)
-- [ ] Manual labelling
-- [ ] Automatic labelling using pre-trained models
-- [ ] Comparing model success using validation dataset
-
-Number of images:
-- ~1k per class
-
-**Input:** cropped image A4\
-**Output:** character
-
-**A YOLOv8 model for shape recognition (8 classes):**
-- [ ] Manual collection of images (using drone or photographing from high point)
-- [ ] Manual labelling
-- [ ] Automatic labelling using pre-trained models
-- [ ] Comparing model success using validation dataset
-
-Number of images:
-- ~5k per class
-
-**Input:** cropped image A4\
-**Output:** shape
-
-**A YOLOv8 model for color recognition (8 classes):**
-- [ ] Manual collection of images (using drone or photographing from high point)
-- [ ] Manual labelling
-- [ ] Automatic labelling using pre-trained models
-- [ ] Comparing model success using validation dataset
-
-Number of images:
-- ~5k per class
-
-**Input:** cropped image A4\
-**Output:**
-- Color of Shape
-- Color of Character
-
-**Important details when collecting images:**
-- Shade
-- Light
-- Rotation
-- Degree of camera
-
-**Procedure:**
-- Make 5 detections for object on the ground
-- Make 5 recognitions for shape
-- Make 5 recognitions for character
-- Make 5 recognitions for character color
-- Make 5 recognitions for shape color
-- Save results in SQLite
-
-**Target goal:**
-- Choose the most frequent result
-- The result's frequency - the 2nd frequent result's frequency > 20%
-
-**Localization (identifying geolocation):**
-- Save location points into the database (SQLLite) when detecting
-- Height: using Lidar
-- Location: using GPS
-
-When attaching a bottle for manikin drop if:
-```
-object.id == manikin.id
-```
-
-When attaching a bottle for shape drop if:
-```
-object.id == A4.id and shape.id == given_shape.id and character.id == given_character.id and shape_color.id == given_shape_color.id and character_color.id == given_character_color.id
-```
-
-**SQLite database**:\
-![(view)](images/image_db.jpg)
-
-```
-SELECT column_name(s)
-FROM table_name
-ORDER BY column_name
-OFFSET (n-1)*5 rows
-FETCH 5 next rows
-```

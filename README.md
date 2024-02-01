@@ -1,6 +1,6 @@
 # SUAS 2024 Object Detection Task 
 
-state of the project as for 25.01.2024 ...
+state of the project as for 01.02.2024 ...
 
 ## Introduction
 

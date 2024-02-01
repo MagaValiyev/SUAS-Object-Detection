@@ -1,0 +1,17 @@
+video_path: ".../"
+
+output_path: ".../"
+
+colors: [(1, 0, 0), (0, 1, 0), (0, 0, 1)]
+
+detection:
+  model_detect_path: ".../"
+  conf_threshold: 0.4
+  imgsz: 928
+
+classification:
+  shape_class_path: ".../"
+  ext_color_path: ".../"
+  int_color_path: ".../"
+  char_path: ".../"
+  imgsz: 320

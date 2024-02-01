@@ -12,14 +12,17 @@ All Classification Models are trained using:
 
 ## Shape Classification
 Total number of classes: 8
+
 No missing classes
 
 ## External Color Classification
 Total number of classes: 8
+
 No missing classes
 
 ## Internal Color Classification
 Total number of classes: 8
+
 No missing classes
 
 **Different Combinations for Colors**:
@@ -33,6 +36,7 @@ No missing classes
 
 ## Character Classification
 Total number of classes: 36
+
 Missing classes for now: 
 - '1'
 - '6'
@@ -47,7 +51,7 @@ Difficult scenarios:
 - '0' vs O
 - '1' vs I
 
-**General Overview**
+## General Overview
 Real-life drone flight:
 - 30 figure combinations are saved
 

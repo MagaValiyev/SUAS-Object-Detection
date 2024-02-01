@@ -42,7 +42,7 @@ Missing classes for now:
 - '6'
 - H
 
-* All the instances are printed for **Sunday (04.02.2024)** flight.
+*All the instances are printed for **Sunday (04.02.2024)** flight.
 
 Difficult scenarios:
 - '6' vs '9'

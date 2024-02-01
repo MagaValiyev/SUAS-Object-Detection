@@ -11,9 +11,48 @@ All Classification Models are trained using:
   - epochs = 100
 
 ## Shape Classification
+Total number of classes: 8
+No missing classes
 
 ## External Color Classification
+Total number of classes: 8
+No missing classes
 
 ## Internal Color Classification
+Total number of classes: 8
+No missing classes
+
+**Different Combinations for Colors**:
+- Orange on Red
+- Orange on Brown
+- Purple on Black
+- Blue on Black
+- Brown on Orange
+- Red on Orange
+
 
 ## Character Classification
+Total number of classes: 36
+Missing classes for now: 
+- '1'
+- '6'
+- H
+
+* All the instances are printed for **Sunday (04.02.2024)** flight.
+
+Difficult scenarios:
+- '6' vs '9'
+- W vs M
+- N vs Z
+- '0' vs O
+- '1' vs I
+
+**General Overview**
+Real-life drone flight:
+- 30 figure combinations are saved
+
+Gazebo simulation flight:
+- Extra 30 figure combinations are saved
+
+For **Sunday (04.02.2024)** flight:
+- 130 different combinations are printed
